@@ -51,7 +51,7 @@
             <div class="socials">
                 <a href="https://facebook.com" target="_blank"><i class="ri-facebook-fill"></i></a>
                 <a href="https://twitter.com" target="_blank"><i class="ri-twitter-x-line"></i></a>
-                <a href="hhtps://whatsapp.com" target="_blank"><i class="ri-whatsapp-line"></i></a>
+                <a href="whatsapp://send?phone=+254716016706" target="_blank"><i class="ri-whatsapp-line"></i></a>
             </div>
             
 
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <p>Fastech Solutions turbocharged my WiFi, giving me blazing-fast speeds and rock-solid connections.
-                         Always online, for work or fun. Thank you for the seamless experience!/p>
+                         Always online, for work or fun. Thank you for the seamless experience!</p>
                 </div>
     
     
@@ -233,7 +233,7 @@
                     <!-- End Social link -->
                 </div>
                 <!-- End Footer info -->
-                <div class="footer-awarad">
+                <div class="footer-awarad" style="margin-top: 2rem;">
                     <img src="images/icon/best.png" alt="">
                     <p>Made by Indakwa @2024</p>
                 </div>
@@ -415,7 +415,7 @@
 
            
             <div class="mod-content">
-                <h2>samowiyo@gmail.com</h2>
+                <h2>otienoowiyo@gmail.com</h2>
                 <div class="mod-header">
                     <i class="ri-mail-line"></i>
                 <p>Email Us.</p>
@@ -432,6 +432,30 @@
 
 
 
+<script>
+    // Modal Elements
+    const modalBackground = document.getElementById("modalBackground");
+    const modalContainer = document.getElementById("modalContainer");
+    const openModalBtn = document.getElementById("openModalBtn");
+    const closeModalBtn = document.getElementById("closeModalBtn");
+    
+    // Open the modal
+    function openModal() {
+        modalBackground.style.display = 'block';
+        modalContainer.style.display = 'block';
+    }
+    
+    // Close the modal
+    function closeModal() {
+        modalBackground.style.display = 'none';
+        modalContainer.style.display = 'none';
+    }
+    
+    // Event Listeners for Modal
+    openModalBtn.addEventListener('click', openModal);
+    closeModalBtn.addEventListener('click', closeModal);
+    modalBackground.addEventListener('click', closeModal);
+</script>
 
 
 <!-- Load your main JavaScript file -->
