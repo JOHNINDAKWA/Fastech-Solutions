@@ -258,11 +258,12 @@ img{
   background-size: 20%;
   height: 100vh;
   width: 100%;
-  /* position: fixed; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
   z-index: 100;
   background-position: center;
-  /* background-size: cover; */
-  margin-right: 2rem;
 }
 /* ===============nav========= */
 nav{
@@ -469,15 +470,18 @@ section.landing .profile-area .inner-circle{
 
 
 .btn-icon {
-  /* width: 4.5rem; */
+  width: 5rem;
   background-color: var(--color-primary);
   color: var(--white);
   font-size: 25px;
   padding: 1rem;
-  padding-left: 1.3rem;
+  padding-left: 1.4rem;
   margin: 1rem;
   border-radius: 50%;
   animation: pulse 2s ease infinite;
+}
+.btn-icon i{
+  font-size: 35px;
 }
 
 @keyframes pulse {
@@ -1558,6 +1562,13 @@ footer p {
 
 
       @media  screen and (max-width: 600px) {
+
+        /* =============preloader============ */
+#preloader{
+  background-size: 60%;
+
+
+}
         h1{
             font-size: 2.2rem;
         }
